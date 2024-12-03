@@ -1,10 +1,5 @@
-type Character = {
-    id: number;
-    name: string;
-    status: string;
-    gender: string;
-    image: string;
-  };
+import { Character } from "@/types/character";
+
   
   export async function getAllCharacters(
     status?: string,
